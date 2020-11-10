@@ -61,8 +61,8 @@ Cápsula (próximamente)
 
 Se adjuntan dos ejemplos relacionados con los proyectos realizados durante el semestre:
 
-- **Ejemplo - React:** Reimplementación de la Pokedex realizada originalmente en HTML+CSS+JS con JQuery
-- **Ejemplo - React Native**: Reimplementación de la Tarjeta de presentación
+- [**Ejemplo - React**](./Ejemplo%20React): Reimplementación de la Pokedex realizada originalmente en HTML+CSS+JS con JQuery
+- [**Ejemplo - React Native**](./Ejemplo%20React%20Native): Reimplementación de la Tarjeta de presentación
 
 # Desafios
 
@@ -98,14 +98,9 @@ Concepto fundamental en React y React Native, independiente del tipo de proyecto
 
 Aprenderán a generar interacciones entre distintas ventanas, ya sea con [React Navigation (React Native)](https://reactnavigation.org/) como [React Router (React JS)](https://reactrouter.com/web/guides/quick-start)
 
-# GitHub
+# GitHub & GitLab
 
-
-
-- Cápsula: Como crear un proyecto y sincronizarlo con una carpeta
-  - Primer paso para el integrante que inicie el proyecto
-- Cápsula: Como sincronizarse con un proyecto ya subido
-  - Segundo paso, lo que deben hacer los otros integrantes del grupo
+- [Cápsula GitHub](https://youtu.be/7Zi-tCcaRTk)
 
 # Referencias
 
