@@ -14,8 +14,10 @@ El siguiente repositorio contiene información para dar inicio a los proyectos d
    - deben reemplazar my-app con el nombre que deseen darle a la app
      - El nombre debe contener **solo minúsculas** y sin espacio.
      - Este nombre solo afecta a la carpeta que se creará y luego se puede reemplazar desde los archivos JS. La carpeta también se puede renombrar.
-4. Deben mantener la consola abierta, ya que ahí se ejecutará el mini servidor.
-5. El sitio web se puede acceder desde http://localhost:3000 
+4. Cambiar la ubicación de la terminal a la carpeta nueva, pueden usar `cd my-app`
+5. Arrancar el servidor de React usando `npm start`en la carpeta anterior
+6. Deben mantener la consola abierta, ya que ahí se ejecutará el mini servidor.
+7. El sitio web se puede acceder desde http://localhost:3000 
 
 Cápsula (próximamente)
 
