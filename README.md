@@ -6,14 +6,14 @@ El siguiente repositorio contiene información para dar inicio a los proyectos d
 
 ## React
 
-1. Instalar Node.js
+1. Instalar [Node.js](https://nodejs.org/es/) (La versión recomendada )
 2. Abrir el terminal (CMD o PowerShell) en una carpeta para el proyecto
    - Una forma rápida de hacerlo en Windows es hacer Máyus + Click Derecho en la carpeta y luego presionar "Abrir PowerShell en esta ubicación"
 3. En el terminal, ejecutar el comando  `npx create-react-app my-app`
    - Ojo dice `npx`, no `npm`
    - deben reemplazar my-app con el nombre que deseen darle a la app
      - El nombre debe contener **solo minúsculas** y sin espacio.
-     - Este nombre solo afecta a la carpeta que se creará y luego se puede reemplazar desde los archivos JS.
+     - Este nombre solo afecta a la carpeta que se creará y luego se puede reemplazar desde los archivos JS. La carpeta también se puede renombrar.
 4. Deben mantener la consola abierta, ya que ahí se ejecutará el mini servidor.
 5. El sitio web se puede acceder desde http://localhost:3000 
 
@@ -25,7 +25,7 @@ Cápsula (próximamente)
 
 Para React Native se sugiere usar [Expo](https://expo.io/), una interfaz que nos entrega las librerías nativas preinstaladas y ahorrará muchisimo tiempo de desarrollo.
 
-1. Instalar Node.js
+1. Instalar [Node.js](https://nodejs.org/es/) (La versión recomendada )
 
 2. Instalar Expo mediante el comando `npm install --global expo-cli`. Lo pueden ejecutar desde cualquier carpeta ya que es global
 
@@ -50,6 +50,7 @@ Para React Native se sugiere usar [Expo](https://expo.io/), una interfaz que nos
    - [PlayStore](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es_CL) (Android)
    - [AppStore](https://apps.apple.com/cl/app/expo-client/id982107779) (iOS)
    - Se sugiere crear una cuenta en [Expo](https://expo.io/learn)
+6. Para acceder a la APP, pueden escanear el código QR que se muestra desde la app Expo, o también, si hicieron una cuenta, les aparecerá automáticamente en su teléfono sin necesidad de configuración extra.
 
    
 
