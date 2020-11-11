@@ -68,6 +68,8 @@ Se adjuntan dos ejemplos relacionados con los proyectos realizados durante el se
 
 ## Desafío 1: Estados
 
+[Enunciado](https://youtu.be/LOkTrSsSh6A?t=274) (Enlace a minuto exacto en que empieza el enunciado)
+
 Concepto fundamental en React y React Native, independiente del tipo de proyecto que se realice (incluso si no requiere login)
 
 **Fecha límite: Domingo 15 de Noviembre 23:55**
@@ -101,6 +103,8 @@ Aprenderán a generar interacciones entre distintas ventanas, ya sea con [React 
 # GitHub & GitLab
 
 - [Cápsula GitHub](https://youtu.be/7Zi-tCcaRTk)
+
+- [Cápsula GitLab](https://youtu.be/0hLf9DKOawQ)
 
 # Referencias
 
