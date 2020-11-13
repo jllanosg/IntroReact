@@ -2,23 +2,40 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, SafeAreaView, Image, TouchableOpacity, View, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import { TextInput } from 'react-native-gesture-handler';
 
 
 
 function HomeScreen({ navigation }) {
   const [a, setA] = useState(0);
   const [nombre, setNombre] = useState("Juanito")
+  const [color, setColor] = useState("green")
+  const colores = ['red','blue','yellow']
+  const [index, setIndex] = useState(0)
+  const cambiar_color = () => {
+    if (index > 2){
+      setIndex(0)
+      setColor(colores[index])
+    } 
+    else{
+      setIndex(index + 1)
+      setColor(colores[index])
+    }
+    console.log(index)
+    console.log(color)
 
+  }
+  const entradaDeTexto = () =>{
+    const [valor, onChangeText] = React.useState('place holder owo');
+  }
   return (
     <SafeAreaView style={styles.container}>
-      <Button title="Boton" onPress={() => {
-        setNombre("Felipe")
-        console.log(a)
-        setA(a + 1)
-      }
-      }></Button>
+      <Button title="Boton" color = {color} onPress={() => cambiar_color()}>
+      </Button>
 
       <Text>{nombre}</Text>
+      <TextInput style={{height:40, borderColor:'black'}}/> 
+        
     </SafeAreaView >
   );
 }
@@ -65,3 +82,6 @@ const styles = StyleSheet.create({
     fontSize: 30
   }
 })
+
+
+
